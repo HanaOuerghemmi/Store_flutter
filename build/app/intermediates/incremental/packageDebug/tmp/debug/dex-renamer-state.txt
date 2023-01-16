@@ -1,0 +1,4 @@
+#Mon Jan 16 21:28:34 CET 2023
+base.0=/Users/admin/Documents/flutter_projects/books_store/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
