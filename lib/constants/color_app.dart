@@ -12,6 +12,9 @@ TextStyle headerStyle = const TextStyle(
 TextStyle paragStyle = const TextStyle(
     fontSize: 24, color: blackColor, fontWeight: FontWeight.normal);
 TextStyle itemAppBar = const TextStyle(color: blackColor, fontSize: 18);
+TextStyle itemCAardTitle = const TextStyle(
+    color: darkBrown, fontSize: 18, fontWeight: FontWeight.bold);
+TextStyle itemCAardText = const TextStyle(color: darkBrown, fontSize: 14);
 
 var defaultBg = Colors.grey[300];
 var myAppBar = AppBar(

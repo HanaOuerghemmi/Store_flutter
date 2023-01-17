@@ -1,0 +1,17 @@
+/home/hana/flutter_app/Test/Store_flutter/build/linux/x64/debug/bundle/books_store
+/home/hana/flutter_app/Test/Store_flutter/build/linux/x64/debug/bundle/data/icudtl.dat
+/home/hana/flutter_app/Test/Store_flutter/build/linux/x64/debug/bundle/lib/libflutter_linux_gtk.so
+/home/hana/flutter_app/Test/Store_flutter/build/linux/x64/debug/bundle/data/flutter_assets/version.json
+/home/hana/flutter_app/Test/Store_flutter/build/linux/x64/debug/bundle/data/flutter_assets/shaders/ink_sparkle.frag
+/home/hana/flutter_app/Test/Store_flutter/build/linux/x64/debug/bundle/data/flutter_assets/NOTICES
+/home/hana/flutter_app/Test/Store_flutter/build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.json
+/home/hana/flutter_app/Test/Store_flutter/build/linux/x64/debug/bundle/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+/home/hana/flutter_app/Test/Store_flutter/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/bg.jpg
+/home/hana/flutter_app/Test/Store_flutter/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/book1.jpeg
+/home/hana/flutter_app/Test/Store_flutter/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/logo.png
+/home/hana/flutter_app/Test/Store_flutter/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/books.png
+/home/hana/flutter_app/Test/Store_flutter/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/valence.png
+/home/hana/flutter_app/Test/Store_flutter/build/linux/x64/debug/bundle/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+/home/hana/flutter_app/Test/Store_flutter/build/linux/x64/debug/bundle/data/flutter_assets/kernel_blob.bin
+/home/hana/flutter_app/Test/Store_flutter/build/linux/x64/debug/bundle/data/flutter_assets/NOTICES.Z
+/home/hana/flutter_app/Test/Store_flutter/build/linux/x64/debug/bundle/data/flutter_assets/FontManifest.json

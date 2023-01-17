@@ -52,12 +52,13 @@ class MyApp extends StatelessWidget {
           bodyText2: TextStyle(fontSize: 14.0, fontFamily: 'Hind'),
         ),
       ),
-      home: LoginOrRegisterPage(),
-      // const ResponsiveLayout(
-      //   mobileBody: MobileScaffold(),
-      //   tabletBody: TabletScaffold(),
-      //   desktopBody: DescktopScaffold(),
-      // ),
+      home:
+          //LoginOrRegisterPage(),
+          const ResponsiveLayout(
+        mobileBody: MobileScaffold(),
+        tabletBody: TabletScaffold(),
+        desktopBody: DescktopScaffold(),
+      ),
       //const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }

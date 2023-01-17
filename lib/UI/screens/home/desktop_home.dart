@@ -61,11 +61,6 @@ class DesktopHome extends StatelessWidget {
                   isHor: true,
                 ),
               ),
-              Expanded(
-                child: HeaderHome(
-                  isHor: true,
-                ),
-              ),
             ],
           ),
         ),

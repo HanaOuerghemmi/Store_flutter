@@ -1,3 +1,4 @@
+import 'package:books_store/UI/widgets/card/card.dart';
 import 'package:books_store/constants/color_app.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
@@ -9,7 +10,28 @@ class AboutScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: orangeColor,
+      child: Row(
+        children: <Widget>[
+          MyCard(
+            assetPath: 'assets/images/book2.jpg',
+            bookPrice: '\$400',
+            bookName: 'book name0',
+            bookWriter: 'book writer',
+          ),
+          MyCard(
+            assetPath: 'assets/images/book2.jpg',
+            bookPrice: '\$300',
+            bookName: 'book name1',
+            bookWriter: 'book writer',
+          ),
+          MyCard(
+            assetPath: 'assets/images/book2.jpg',
+            bookPrice: '\$200',
+            bookName: 'book name2',
+            bookWriter: 'book writer',
+          ),
+        ],
+      ),
     );
   }
 }
