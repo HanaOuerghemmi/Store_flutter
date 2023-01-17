@@ -1,10 +1,11 @@
+import 'package:books_store/UI/screens/auth/widget_auth%20/footer_auth.dart';
+import 'package:books_store/UI/screens/auth/widget_auth%20/header_auth.dart';
 import 'package:books_store/constants/color_app.dart';
 import 'package:books_store/constants/paddings.dart';
 import 'package:flutter/material.dart';
 
 import '../widget_auth /my_button.dart';
 import '../widget_auth /my_textfield.dart';
-import '../widget_auth /square_tile.dart';
 
 class LoginPage extends StatefulWidget {
   final Function()? onTap;
@@ -76,23 +77,9 @@ class _LoginPageState extends State<LoginPage> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  largePaddingVertical,
-
-                  // logo
-                  const Icon(
-                    Icons.lock,
-                    size: 150,
-                  ),
-
-                  largePaddingVertical,
-
-                  // welcome back, you've been missed!
-                  Text(
-                    'Welcome back you\'ve been missed!',
-                    style: TextStyle(
-                      color: Colors.grey[700],
-                      fontSize: 16,
-                    ),
+                  const HeaderAuth(
+                    icon: Icons.lock,
+                    text: "Welcome back you\'ve been missed!",
                   ),
 
                   mediumPaddingVertical,
@@ -123,7 +110,10 @@ class _LoginPageState extends State<LoginPage> {
                       children: [
                         Text(
                           'Forgot Password?',
-                          style: TextStyle(color: Colors.grey[600]),
+                          style: TextStyle(
+                            color: lightBrown,
+                            fontWeight: FontWeight.bold,
+                          ),
                         ),
                       ],
                     ),
@@ -132,33 +122,20 @@ class _LoginPageState extends State<LoginPage> {
                   mediumPaddingVertical,
 
                   // sign in button
+                  mediumPaddingVertical,
+
+                  // sign in button
                   MyButton(
-                    text: "Sign In",
+                    text: "Sign Up",
                     onTap: () {},
                   ),
 
                   largePaddingVertical,
 
-                  // not a member? register now
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Text(
-                        'Not a member?',
-                        style: TextStyle(color: Colors.grey[700]),
-                      ),
-                      const SizedBox(width: 4),
-                      GestureDetector(
-                        onTap: widget.onTap,
-                        child: const Text(
-                          'Register now',
-                          style: TextStyle(
-                            color: Colors.blue,
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
-                      ),
-                    ],
+                  FooterAuth(
+                    text: 'Not a member?',
+                    textFlatButton: 'Register now',
+                    onTap: widget.onTap,
                   ),
                 ],
               ),

@@ -1,10 +1,11 @@
+import 'package:books_store/UI/screens/auth/widget_auth%20/footer_auth.dart';
+import 'package:books_store/UI/screens/auth/widget_auth%20/header_auth.dart';
 import 'package:books_store/constants/color_app.dart';
 import 'package:books_store/constants/paddings.dart';
 import 'package:flutter/material.dart';
 
 import '../widget_auth /my_button.dart';
 import '../widget_auth /my_textfield.dart';
-import '../widget_auth /square_tile.dart';
 
 class RegisterPage extends StatefulWidget {
   final Function()? onTap;
@@ -83,25 +84,9 @@ class _RegisterPageState extends State<RegisterPage> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  mediumPaddingVertical,
-
-                  // logo
-                  const Icon(
-                    Icons.lock,
-                    size: 150,
-                  ),
-
-                  mediumPaddingVertical,
-
-                  // let's create an account for you
-                  Text(
-                    'Let\'s create an account for you!',
-                    style: TextStyle(
-                      color: Colors.grey[700],
-                      fontSize: 16,
-                    ),
-                  ),
-
+                  const HeaderAuth(
+                      text: "Let\'s create an account for you!",
+                      icon: Icons.lock),
                   mediumPaddingVertical,
 
                   // email textfield
@@ -140,25 +125,11 @@ class _RegisterPageState extends State<RegisterPage> {
                   largePaddingVertical,
 
                   // not a member? register now
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Text(
-                        'Already have an account?',
-                        style: TextStyle(color: Colors.grey[700]),
-                      ),
-                      const SizedBox(width: 4),
-                      GestureDetector(
-                        onTap: widget.onTap,
-                        child: const Text(
-                          'Login now',
-                          style: TextStyle(
-                            color: Colors.blue,
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
-                      ),
-                    ],
+
+                  FooterAuth(
+                    text: "Already have an account?",
+                    textFlatButton: "login now",
+                    onTap: widget.onTap,
                   )
                 ],
               ),
