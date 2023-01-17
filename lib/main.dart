@@ -34,7 +34,6 @@ class MyApp extends StatelessWidget {
         // Define the default brightness and colors.
         brightness: Brightness.dark,
         primaryColor: Colors.lightBlue[800],
-
         scaffoldBackgroundColor: const Color(0xFFE5E5E5),
         appBarTheme: const AppBarTheme(
           elevation: 0,
