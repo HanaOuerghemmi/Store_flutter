@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
-import 'package:flutter/src/widgets/framework.dart';
 
 import 'package:books_store/constants/color_app.dart';
-import 'package:books_store/responsive/responsive_layout.dart';
 
 class HeaderHome extends StatelessWidget {
   final bool isHor;
@@ -44,8 +41,6 @@ class HeaderHome extends StatelessWidget {
               Expanded(
                 child: Image.asset(
                   'assets/images/books.png',
-                  width: double.infinity,
-                  height: 800,
                 ),
               ),
               Expanded(
