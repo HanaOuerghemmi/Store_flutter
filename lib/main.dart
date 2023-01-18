@@ -1,3 +1,4 @@
+import 'package:books_store/UI/screens/about/about_screen.dart';
 import 'package:books_store/UI/screens/auth/login/login_screen.dart';
 import 'package:books_store/UI/screens/auth/login_or_register/login_or_register.dart';
 import 'package:books_store/UI/screens/home/home_screen.dart';
@@ -52,13 +53,13 @@ class MyApp extends StatelessWidget {
           bodyText2: TextStyle(fontSize: 14.0, fontFamily: 'Hind'),
         ),
       ),
-      home:
-          //LoginOrRegisterPage(),
-          const ResponsiveLayout(
-        mobileBody: MobileScaffold(),
-        tabletBody: TabletScaffold(),
-        desktopBody: DescktopScaffold(),
-      ),
+      home: AboutScreen(),
+      //LoginOrRegisterPage(),
+      //     const ResponsiveLayout(
+      //   mobileBody: MobileScaffold(),
+      //   tabletBody: TabletScaffold(),
+      //   desktopBody: DescktopScaffold(),
+      // ),
       //const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
