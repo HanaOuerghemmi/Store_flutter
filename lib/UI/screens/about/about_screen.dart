@@ -1,4 +1,5 @@
 import 'package:books_store/UI/widgets/card/card.dart';
+import 'package:books_store/UI/widgets/footer/desc_footer.dart';
 import 'package:books_store/constants/color_app.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';

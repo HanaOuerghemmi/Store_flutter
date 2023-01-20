@@ -1,4 +1,5 @@
 import 'package:books_store/UI/screens/home/widgets_home/header_home_hor.dart';
+import 'package:books_store/UI/widgets/footer/desc_footer.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:flutter/material.dart';
@@ -64,6 +65,7 @@ class DesktopHome extends StatelessWidget {
             ],
           ),
         ),
+
         Expanded(
           child: Column(
             children: [

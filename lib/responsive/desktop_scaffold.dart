@@ -1,5 +1,6 @@
 import 'package:books_store/UI/screens/about/about_screen.dart';
 import 'package:books_store/UI/screens/home/home_screen.dart';
+import 'package:books_store/UI/widgets/footer/desc_footer.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -23,6 +24,7 @@ class DescktopScaffold extends StatelessWidget {
         height: 60,
       ),
       body: provider.listScreen[provider.index],
+      bottomNavigationBar: const DescFooter(),
     );
   }
 }

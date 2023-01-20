@@ -8,6 +8,7 @@
 /home/hana/flutter_app/Test/Store_flutter/build/linux/x64/debug/bundle/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
 /home/hana/flutter_app/Test/Store_flutter/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/bg.jpg
 /home/hana/flutter_app/Test/Store_flutter/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/book1.jpeg
+/home/hana/flutter_app/Test/Store_flutter/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/book2.jpg
 /home/hana/flutter_app/Test/Store_flutter/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/logo.png
 /home/hana/flutter_app/Test/Store_flutter/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/books.png
 /home/hana/flutter_app/Test/Store_flutter/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/valence.png
