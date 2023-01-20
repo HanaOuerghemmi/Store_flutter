@@ -46,7 +46,11 @@
 		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
+<<<<<<< HEAD
 		TVLx5jJ0szqKVti1m8A07pTGx6Y=
+=======
+		XaDy5m2+GGhRcJ7Nc7/d9WuYtZo=
+>>>>>>> cart_footer
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
@@ -54,11 +58,15 @@
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
+<<<<<<< HEAD
 		r4/2cmP+hxuVtJkhb04IBMMmxII=
+=======
+		+1dxdGouSMnGp1i9Vf/O+MH70xY=
+>>>>>>> cart_footer
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<data>
-		qtAHW22aUcNBzr4MK2T62K3wDX4=
+		llc/ZB977tLGfvGBc09yOvDX4kA=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
 		<data>
@@ -71,6 +79,14 @@
 		<key>Frameworks/App.framework/flutter_assets/assets/images/bg.jpg</key>
 		<data>
 		poPyZ97hT/YLt2NLS+BJ9GsN7uw=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/book1.jpeg</key>
+		<data>
+		fnLYHZ0kVq4A7E9M8k8eKJMUpK0=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/book2.jpg</key>
+		<data>
+		awMn964KkWEFrE81TkRrME91hso=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/books.png</key>
 		<data>
@@ -94,7 +110,11 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/kernel_blob.bin</key>
 		<data>
+<<<<<<< HEAD
 		SJNrr103fHo5rxcEVywqe87ljfo=
+=======
+		n857BBUXpl38c3JbetgPpetEXgs=
+>>>>>>> cart_footer
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -110,7 +130,11 @@
 		</data>
 		<key>Frameworks/Flutter.framework/Flutter</key>
 		<data>
+<<<<<<< HEAD
 		KsZVAmNQCpRbIHIi76hujy1jVxg=
+=======
+		lg5ZBsEsMIl31P8Ko8JLTXy8YRY=
+>>>>>>> cart_footer
 		</data>
 		<key>Frameworks/Flutter.framework/Headers/Flutter.h</key>
 		<data>
@@ -277,7 +301,11 @@
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< HEAD
 			tBntZtxYD2/BeheQKKNGJ/8i6nWF23nw6Er77o69y6E=
+=======
+			JSJQjFGy5bWmIyHc/5Oqw9LeolOOFXS2Da5ZVu+L/rk=
+>>>>>>> cart_footer
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
@@ -291,14 +319,18 @@
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< HEAD
 			BunZU/mBSvgzCz/Jo2pjE3cfWwAtPMtW56ZSA2vn1z4=
+=======
+			DWUNPse7Jb5rTjNgHRFuNsOxiB5rsEUdLx179x1ygQo=
+>>>>>>> cart_footer
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Nvq0d/ZCkAdcx2SwgSnoywFIhzYmkTp+5xPYZ/bJYQs=
+			3Q9gmp3cnSyAZaYLFl6FgdXHW+BXkK6sDQ8ZZ101Sxg=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
@@ -320,6 +352,20 @@
 			<key>hash2</key>
 			<data>
 			0OXGN4QwBLMrvh7OiewPBDs7JU2p7Df9aPH2+2cPKLE=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/book1.jpeg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zhmvYrURybhMNLDwjF0FcXJrfV1YVBOu/BmqHsAbYpQ=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/book2.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			XfLpe6dL6SPQAwWDydC4VHHG8BRL6tG9/pxoEf4dxQs=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/assets/images/books.png</key>
@@ -361,7 +407,11 @@
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< HEAD
 			uEO2bmgevEkJcvXC0LRqP9Rb88LwRSJ7luOZLqlwumE=
+=======
+			+35XZjbWrlXuynzHVWPtObDagrT/OfM35UKOhKv4hHg=
+>>>>>>> cart_footer
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
@@ -389,7 +439,11 @@
 		<dict>
 			<key>hash2</key>
 			<data>
+<<<<<<< HEAD
 			YPv3D6HO3PXHH/dgWXmuqI/OjBgMxB+qXHRJpENLaj0=
+=======
+			EEBSHlKyeEpDUvTIAW6qZ6sPPT5TgINFpjaRzyBmW4U=
+>>>>>>> cart_footer
 			</data>
 		</dict>
 		<key>Frameworks/Flutter.framework/Headers/Flutter.h</key>
