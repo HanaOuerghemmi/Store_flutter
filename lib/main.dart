@@ -32,32 +32,13 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        // Define the default brightness and colors.
-        brightness: Brightness.dark,
-        primaryColor: Colors.lightBlue[800],
-        scaffoldBackgroundColor: const Color(0xFFE5E5E5),
-        appBarTheme: const AppBarTheme(
-          elevation: 0,
-          backgroundColor: const Color(0xFFE5E5E5),
-        ),
-
-        // Define the default font family.
-        fontFamily: 'Georgia',
-
-        // Define the default `TextTheme`. Use this to specify the default
-        // text styling for headlines, titles, bodies of text, and more.
-        textTheme: const TextTheme(
-          headline1: TextStyle(fontSize: 72.0, fontWeight: FontWeight.bold),
-          headline6: TextStyle(fontSize: 36.0, fontStyle: FontStyle.italic),
-          bodyText2: TextStyle(fontSize: 14.0, fontFamily: 'Hind'),
-        ),
+          // Define the default brightness and colors.
+          ),
+      home: const ResponsiveLayout(
+        mobileBody: MobileScaffold(),
+        tabletBody: TabletScaffold(),
+        desktopBody: DescktopScaffold(),
       ),
-      home: AboutScreen(),
-      // const ResponsiveLayout(
-      //   mobileBody: MobileScaffold(),
-      //   tabletBody: TabletScaffold(),
-      //   desktopBody: DescktopScaffold(),
-      // ),
       //const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
